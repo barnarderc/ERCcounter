@@ -7,31 +7,43 @@
     <meta name="author" content="Valera Rozuvan" />
 
     <title>Online counter</title>
-
+    <link href="//db.onlinewebfonts.com/c/c177e84a215070e15667a0004160f977?family=Tw+Cen+MT+Std" rel="stylesheet" type="text/css"/>
     <link href="css/font-awesome.css" rel="stylesheet" />
     <link href="css/app.css" rel="stylesheet" />
     <link href="css/body.css" rel="stylesheet" />
     <link href="css/layout.css" rel="stylesheet" />
     <link href="css/plus-minus-input.css" rel="stylesheet" />
     <link href="css/gh-fork-ribbon.css" rel="stylesheet" />
+    <script type ="text/javascript">
+    n =  new Date();
+  y = n.getFullYear();
+  m = n.getMonth() + 1;
+  d = n.getDate();
+  console.log(m, d, y);
+  window.onload = function what(){
+    document.getElementById("date").innerHTML =  m + "/" + d + "/" + y;
+}</script>
+
   </head>
   <body>
-    <a
-      class="github-fork-ribbon"
-      href="https://github.com/valera-rozuvan/online-counter"
-      data-ribbon="Fork me on GitHub"
-      title="Fork me on GitHub"
-    >Fork me on GitHub</a>
-
+<div class="row">
+  <p></p>
+</div>
     <div class="row">
       <div class="columns">
-          <h2 class="align-center">Online counter</h2>
-          <h6 class="align-center">increase number with a button click</h6>
+          <h3 class="align-center">Barnard College</h3>
+          <h3 class="align-center">Empirical Reasoning Center</h3>
+          <h3 class="align-center">Count For: <span id="date" style="color:#041459"></span></h3>
+          <div class="middle">
+          <h5 class="align-center">If you're just using the space or the computers, you don't need to sign in on the ipad. Just increase this counter by clicking on the plus icon!</h5>
+          <!-- <h6 class="align-center">increase number with a button click</h6> -->
+        </div>
       </div>
     </div>
 
     <div class="row">&nbsp;</div>
-    <div class="row">&nbsp;</div>
+    <div class="row">
+    </div>
 
     <div class="row">
       <div class="columns">
@@ -57,7 +69,7 @@
 
     <div class="footer">
       <span class="love">
-          Made with <i class="fa fa-heart pulse"></i> by <a href="http://valera.rozuvan.net/">Valera Rozuvan</a>
+          Made with <i class="fa fa-heart pulse"></i> by <a href="http://valera.rozuvan.net/">Valera Rozuvan</a>, edited by Fatima Koli
       </span>
     </div>
 
